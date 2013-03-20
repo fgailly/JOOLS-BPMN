@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UML_ER:ERmodel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UML_ER="UML_ER">
+  <InstanceElement xsi:type="UML_ER:Entity" name="Employee">
+    <ontologyReference ontology="REA-EO" name="EconomicAgent"/>
+    <attribute name="salary"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="Department">
+    <ontologyReference ontology="REA-EO" name="Group"/>
+    <attribute name="minsalary"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.2/@role.1" target="//@InstanceElement.2/@role.0">
+    <ontologyReference ontology="REA-EO" name="grouping"/>
+    <role connectedEntity="//@InstanceElement.1"/>
+    <role connectedEntity="//@InstanceElement.0"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="EmployeeType">
+    <ontologyReference ontology="REA-EO" name="Type"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="Deliver Consulting Services">
+    <ontologyReference ontology="REA-EO" name="EconomicEvent"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="Plan Consulting Services Task">
+    <ontologyReference ontology="REA-EO" name="Commitment"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.6/@role.1" target="//@InstanceElement.6/@role.0">
+    <role/>
+    <role connectedEntity="//@InstanceElement.5"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.7/@role.1" target="//@InstanceElement.7/@role.0">
+    <ontologyReference ontology="REA-EO" name="grouping"/>
+    <role/>
+    <role/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.8/@role.1" target="//@InstanceElement.8/@role.0">
+    <ontologyReference ontology="REA-EO" name="stockflow"/>
+    <role/>
+    <role connectedEntity="//@InstanceElement.4"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.9/@role.1" target="//@InstanceElement.9/@role.0">
+    <ontologyReference ontology="REA-EO" name="participation"/>
+    <role connectedEntity="//@InstanceElement.0"/>
+    <role connectedEntity="//@InstanceElement.4"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.10/@role.1" target="//@InstanceElement.10/@role.0">
+    <ontologyReference ontology="REA-EO" name="typification"/>
+    <role connectedEntity="//@InstanceElement.3"/>
+    <role connectedEntity="//@InstanceElement.0"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.11/@role.1" target="//@InstanceElement.11/@role.0">
+    <ontologyReference ontology="REA-EO" name="fulfillment"/>
+    <role connectedEntity="//@InstanceElement.4"/>
+    <role connectedEntity="//@InstanceElement.5"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.12/@role.1" target="//@InstanceElement.12/@role.0">
+    <role connectedEntity="//@InstanceElement.3"/>
+    <role/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="Client">
+    <ontologyReference ontology="REA-EO" name="EconomicAgent"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.14/@role.1" target="//@InstanceElement.14/@role.0">
+    <role connectedEntity="//@InstanceElement.13"/>
+    <role connectedEntity="//@InstanceElement.5"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="ConsultingServiceTask">
+    <ontologyReference ontology="REA-EO" name="Group"/>
+    <attribute name="min#OfConsultingServices"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="ConsultingService">
+    <ontologyReference ontology="REA-EO" name="EconomicResource"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.17/@role.1" target="//@InstanceElement.17/@role.0">
+    <role connectedEntity="//@InstanceElement.16"/>
+    <role connectedEntity="//@InstanceElement.15"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.18/@role.1" target="//@InstanceElement.18/@role.0">
+    <role connectedEntity="//@InstanceElement.3"/>
+    <role connectedEntity="//@InstanceElement.15"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.19/@role.1" target="//@InstanceElement.19/@role.0">
+    <role connectedEntity="//@InstanceElement.15"/>
+    <role connectedEntity="//@InstanceElement.5"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.20/@role.1" target="//@InstanceElement.20/@role.0">
+    <ontologyReference ontology="REA-EO" name="stockflow"/>
+    <role connectedEntity="//@InstanceElement.16"/>
+    <role connectedEntity="//@InstanceElement.4"/>
+  </InstanceElement>
+</UML_ER:ERmodel>

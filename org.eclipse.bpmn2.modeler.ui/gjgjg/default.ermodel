@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UML_ER:ERmodel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UML_ER="UML_ER">
+  <InstanceElement xsi:type="UML_ER:Entity" name="kjhkh"/>
+  <InstanceElement xsi:type="UML_ER:Entity">
+    <ontologyReference ontology="REA-EO" name="Commitment"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="jljl"/>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" name="lkjlj" source="//@InstanceElement.3/@role.1" target="//@InstanceElement.3/@role.0">
+    <role connectedEntity="//@InstanceElement.1"/>
+    <role connectedEntity="//@InstanceElement.2"/>
+  </InstanceElement>
+</UML_ER:ERmodel>

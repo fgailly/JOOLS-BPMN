@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" type="UML_ER" name="default.uml_er_diagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" type="2003" fontName="Lucida Grande">
+    <children xsi:type="notation:DecorationNode" type="5003"/>
+    <children xsi:type="notation:DecorationNode" type="7005">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <children xsi:type="notation:DecorationNode" type="7006">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <element href="default.uml_er#//@InstanceElement.0"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="279" y="175"/>
+  </children>
+  <children xsi:type="notation:Shape" type="2003" fontName="Lucida Grande">
+    <children xsi:type="notation:DecorationNode" type="5003"/>
+    <children xsi:type="notation:DecorationNode" type="7005">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <children xsi:type="notation:DecorationNode" type="7006">
+      <styles xsi:type="notation:SortingStyle"/>
+      <styles xsi:type="notation:FilteringStyle"/>
+    </children>
+    <element href="default.uml_er#//@InstanceElement.1"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="470" y="142"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle"/>
+  <element href="default.uml_er#/"/>
+</notation:Diagram>

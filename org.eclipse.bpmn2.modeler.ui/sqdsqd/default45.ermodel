@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UML_ER:ERmodel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UML_ER="UML_ER">
+  <InstanceElement xsi:type="UML_ER:Entity" name="wcwcc"/>
+  <InstanceElement xsi:type="UML_ER:Entity" name="hkhh"/>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" name="sdkqhfq" source="//@InstanceElement.2/@role.1" target="//@InstanceElement.2/@role.0">
+    <role connectedEntity="//@InstanceElement.1"/>
+    <role upper="1" lower="1" connectedEntity="//@InstanceElement.0"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="cfdfh"/>
+  <InstanceElement xsi:type="UML_ER:Aggregation" source="//@InstanceElement.4/@role.1" target="//@InstanceElement.4/@role.0">
+    <role upper="1" lower="1" connectedEntity="//@InstanceElement.3"/>
+    <role upper="1" lower="1" connectedEntity="//@InstanceElement.1"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="sdqd"/>
+  <InstanceElement xsi:type="UML_ER:Composition" source="//@InstanceElement.6/@role.1" target="//@InstanceElement.6/@role.0">
+    <role upper="1" lower="1" connectedEntity="//@InstanceElement.1"/>
+    <role upper="1" connectedEntity="//@InstanceElement.5"/>
+  </InstanceElement>
+</UML_ER:ERmodel>

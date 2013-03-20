@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UML_ER:ERmodel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UML_ER="UML_ER">
+  <InstanceElement xsi:type="UML_ER:Entity" name="ConsultingServicesTask">
+    <ontologyReference ontology="REA-EO" name="Group"/>
+    <attribute name="min#NumberOfConsultingServices"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="ConsultingService">
+    <ontologyReference ontology="REA-EO" name="EconomicResource"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.2/@role.1" target="//@InstanceElement.2/@role.0">
+    <ontologyReference ontology="REA-EO" name="grouping"/>
+    <role connectedEntity="//@InstanceElement.0"/>
+    <role connectedEntity="//@InstanceElement.1"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="Plan Consulting Service"/>
+  <InstanceElement xsi:type="UML_ER:BinaryRelationship" source="//@InstanceElement.4/@role.1" target="//@InstanceElement.4/@role.0">
+    <role connectedEntity="//@InstanceElement.0"/>
+    <role connectedEntity="//@InstanceElement.3"/>
+  </InstanceElement>
+  <InstanceElement xsi:type="UML_ER:Entity" name="Deliver Consulting Services"/>
+</UML_ER:ERmodel>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:UML_ER="UML_ER" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_eikyMCKjEeKn-N4E86Sw4w" type="UML_ER" name="default2.er" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_aB40QCKuEeKJuog5NVxxjA" type="2003" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aB8eoCKuEeKJuog5NVxxjA" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aB-64CKuEeKJuog5NVxxjA" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_aB-64SKuEeKJuog5NVxxjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_aB-64iKuEeKJuog5NVxxjA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aB-64yKuEeKJuog5NVxxjA" type="7006">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_aB-65CKuEeKJuog5NVxxjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_aB-65SKuEeKJuog5NVxxjA"/>
+    </children>
+    <element xmi:type="UML_ER:Entity" href="default2.ermodel#//@InstanceElement.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aB40QSKuEeKJuog5NVxxjA" x="495" y="367"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_5o5eQCKuEeKLYYaZyz74Aw" type="2003" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5o6FUCKuEeKLYYaZyz74Aw" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5o6FUSKuEeKLYYaZyz74Aw" type="7005">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5o6FUiKuEeKLYYaZyz74Aw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5o6FUyKuEeKLYYaZyz74Aw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5o6sYCKuEeKLYYaZyz74Aw" type="7006">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5o6sYSKuEeKLYYaZyz74Aw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5o6sYiKuEeKLYYaZyz74Aw"/>
+    </children>
+    <element xmi:type="UML_ER:Entity" href="default2.ermodel#//@InstanceElement.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5o5eQSKuEeKLYYaZyz74Aw" x="860" y="314"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_eikyMSKjEeKn-N4E86Sw4w"/>
+  <element xmi:type="UML_ER:ERmodel" href="default2.ermodel#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_62sHECKuEeKLYYaZyz74Aw" type="4014" source="_aB40QCKuEeKJuog5NVxxjA" target="_5o5eQCKuEeKLYYaZyz74Aw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_62suICKuEeKLYYaZyz74Aw" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_62suISKuEeKLYYaZyz74Aw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_62tVMiKuEeKLYYaZyz74Aw" type="6005">
+      <element xmi:type="UML_ER:Role" href="default2.ermodel#//@InstanceElement.2/@role.0"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_62tVMyKuEeKLYYaZyz74Aw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_62tVNCKuEeKLYYaZyz74Aw" type="6010">
+      <element xmi:type="UML_ER:Role" href="default2.ermodel#//@InstanceElement.2/@role.0"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_62tVNSKuEeKLYYaZyz74Aw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_62tVNiKuEeKLYYaZyz74Aw" type="6006">
+      <element xmi:type="UML_ER:Role" href="default2.ermodel#//@InstanceElement.2/@role.1"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_62t8QCKuEeKLYYaZyz74Aw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_62t8QSKuEeKLYYaZyz74Aw" type="6011">
+      <element xmi:type="UML_ER:Role" href="default2.ermodel#//@InstanceElement.2/@role.1"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_62t8QiKuEeKLYYaZyz74Aw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_62t8QyKuEeKLYYaZyz74Aw" type="6017">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_62t8RCKuEeKLYYaZyz74Aw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_62sHESKuEeKLYYaZyz74Aw" fontName="Lucida Grande"/>
+    <element xmi:type="UML_ER:BinaryRelationship" href="default2.ermodel#//@InstanceElement.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_62sHEiKuEeKLYYaZyz74Aw" points="[20, -4, -358, 60]$[386, -72, 8, -8]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_63UZMCKuEeKLYYaZyz74Aw" id="(0.8048780487804879,0.3225806451612903)"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CopyToImageDialog">
+		<item value="png" key="CopyToImageDialog.imageFormat"/>
+		<item value="/Users/fgailly/Documents/onderzoek/VMBO2013" key="CopyToImageDialog.folder"/>
+		<item value="false" key="CopyToImageDialog.exportToHTML"/>
+		<item value="false" key="CopyToImageDialog.overwriteExisting"/>
+	</section>
+</section>
